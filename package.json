@@ -1,0 +1,18 @@
+{
+  "name": "api_paseadores",
+  "version": "1.0.0",
+  "description": "\"este es un proyecto que muestra los paseadores disponibles en la app patitap\"",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gloria Ramirez",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mysql": "github:mysqljs/mysql"
+  }
+}
